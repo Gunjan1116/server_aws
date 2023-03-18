@@ -3,7 +3,7 @@ require("dotenv").config();
 const app=express();
 
 app.get("/",(req,res)=>{
-    res.send("Welcome to server 1")
+    res.send("Welcome to server 2")
 })
 
 app.listen(process.env.port,()=>{
